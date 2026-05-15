@@ -1,0 +1,19 @@
+package com.wipro.Spring.SpringExample;
+
+
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class Manager implements Allocator{
+
+	
+	public void taskAllocation(String user) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("The task is allocated by Manager to " + user);
+		
+	}
+
+	
+}
